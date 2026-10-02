@@ -1,0 +1,18 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Raw Google Maps dump files & scrapings
+*.pdf
+app.html
+RotateCookiesPage.html
+m=*
+pb=*
+rs=*
+unnamed.*
+GoogleMaps_*
+lockup_maps_*
+
+# Node
+node_modules/

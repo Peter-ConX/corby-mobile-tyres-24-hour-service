@@ -1,0 +1,186 @@
+/* ==========================================================================
+   CORBY MOBILE TYRES 24 HOUR SERVICE — Production Stylesheet
+   Designed for UK Emergency Roadside Assistance & High-Contrast Mobile UX
+   ========================================================================== */
+
+:root {
+  --color-bg: #0a0e13;
+  --color-surface: #101419;
+  --color-surface-low: #161a20;
+  --color-surface-mid: #1d222a;
+  --color-surface-high: #272d36;
+  --color-yellow: #fee400;
+  --color-yellow-hover: #ffea2b;
+  --color-yellow-dark: #ccb700;
+  --color-yellow-glow: rgba(254, 228, 0, 0.28);
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-text-subtle: #64748b;
+  --color-border: #2a313c;
+  --color-border-accent: rgba(254, 228, 0, 0.35);
+  --color-danger: #ef4444;
+  --color-success: #10b981;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Typography styles */
+.font-display {
+  font-family: 'Chivo', 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'Space Grotesk', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* High-Visibility Roadside Hazard Stripe Pattern */
+.hazard-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fee400,
+    #fee400 12px,
+    #0a0e13 12px,
+    #0a0e13 24px
+  );
+}
+
+.hazard-stripe-subtle {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(254, 228, 0, 0.4),
+    rgba(254, 228, 0, 0.4) 10px,
+    rgba(16, 20, 25, 0.8) 10px,
+    rgba(16, 20, 25, 0.8) 20px
+  );
+}
+
+/* Hazard Amber Glow for Primary Roadside Action */
+.hazard-glow {
+  box-shadow: 0 0 25px rgba(254, 228, 0, 0.32), 0 4px 14px rgba(0, 0, 0, 0.7);
+}
+
+.hazard-glow:hover {
+  box-shadow: 0 0 35px rgba(254, 228, 0, 0.5), 0 6px 18px rgba(0, 0, 0, 0.85);
+}
+
+/* Subtle Live Pulse Beacon */
+@keyframes live-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.9);
+  }
+}
+
+.pulse-amber {
+  animation: live-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Radar Ping Beacon */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  70% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-radar-ping {
+  animation: radar-pulse 3s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Custom Grid Texture */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(254, 228, 0, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-subtle {
+  background-image: radial-gradient(#272d36 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* High Contrast Card Hover Effects */
+.service-card {
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(254, 228, 0, 0.45);
+  box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(254, 228, 0, 0.12);
+}
+
+/* Accessible Focus States */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #fee400;
+  outline-offset: 2px;
+}
+
+/* Custom FAQ Details Marker Styling */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary .faq-icon {
+  transform: rotate(180deg);
+}
+
+/* Mobile Safe Bottom Padding */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 5.5rem;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0e13;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272d36;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fee400;
+}

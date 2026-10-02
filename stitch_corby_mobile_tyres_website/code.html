@@ -1,0 +1,721 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Corby Mobile Tyres 24 Hour Service | Emergency Roadside Fitting</title>
+<!-- Material Symbols & Typography -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,700;0,800;0,900;1,700&amp;family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Verbatim Tailwind Configuration -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-container": "#ffaea8",
+            "on-secondary": "#68000a",
+            "surface-container-highest": "#31353b",
+            "on-tertiary-container": "#576679",
+            "on-primary-fixed-variant": "#504700",
+            "primary": "#ffffff",
+            "surface-container-high": "#262a30",
+            "on-surface-variant": "#cec7aa",
+            "outline": "#979177",
+            "secondary": "#ffb3ad",
+            "on-error-container": "#ffdad6",
+            "on-primary-fixed": "#201c00",
+            "primary-container": "#fee400",
+            "surface-dim": "#101419",
+            "on-secondary-fixed": "#410004",
+            "primary-fixed-dim": "#dec800",
+            "surface-variant": "#31353b",
+            "tertiary": "#ffffff",
+            "on-primary-container": "#716500",
+            "on-secondary-fixed-variant": "#930013",
+            "inverse-primary": "#6a5f00",
+            "on-background": "#e0e2ea",
+            "surface-tint": "#dec800",
+            "tertiary-fixed": "#d4e4fa",
+            "surface-container-lowest": "#0a0e13",
+            "on-tertiary-fixed": "#0d1c2d",
+            "surface-container-low": "#181c21",
+            "error": "#ffb4ab",
+            "inverse-surface": "#e0e2ea",
+            "secondary-fixed": "#ffdad7",
+            "surface-bright": "#36393f",
+            "tertiary-container": "#d4e4fa",
+            "tertiary-fixed-dim": "#b9c8de",
+            "surface-container": "#1c2025",
+            "secondary-container": "#a40217",
+            "secondary-fixed-dim": "#ffb3ad",
+            "primary-fixed": "#fee400",
+            "inverse-on-surface": "#2d3136",
+            "on-error": "#690005",
+            "on-primary": "#373100",
+            "on-tertiary": "#233143",
+            "on-surface": "#e0e2ea",
+            "background": "#101419",
+            "surface": "#101419",
+            "outline-variant": "#4b4731",
+            "on-tertiary-fixed-variant": "#39485a",
+            "error-container": "#93000a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-xs": "0.25rem",
+            "gutter-desktop": "1.5rem",
+            "margin-mobile": "1rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-lg": "1.5rem",
+            "margin": "1rem",
+            "gutter": "1rem",
+            "space-xl": "2.5rem",
+            "margin-desktop": "2.5rem",
+            "gutter-mobile": "0.75rem"
+          },
+          "fontFamily": {
+            "body-sm": ["Inter"],
+            "label-lg": ["Space Grotesk"],
+            "label-sm": ["Space Grotesk"],
+            "headline-sm": ["Chivo"],
+            "headline-md": ["Chivo"],
+            "headline-lg": ["Chivo"],
+            "label-md": ["Space Grotesk"],
+            "headline-xl": ["Chivo"],
+            "headline-xl-mobile": ["Chivo"],
+            "headline-lg-mobile": ["Chivo"],
+            "body-md": ["Inter"],
+            "body-lg": ["Inter"]
+          },
+          "fontSize": {
+            "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "label-lg": ["15px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "700" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+            "headline-sm": ["20px", { "lineHeight": "24px", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "28px", "fontWeight": "700" }],
+            "headline-lg": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "800" }],
+            "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "headline-xl": ["48px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "900" }],
+            "headline-xl-mobile": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "900" }],
+            "headline-lg-mobile": ["26px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "800" }],
+            "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "body-lg": ["18px", { "lineHeight": "26px", "fontWeight": "500" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .hazard-stripe-top {
+      background: repeating-linear-gradient(
+        -45deg,
+        #fee400,
+        #fee400 12px,
+        #0a0e13 12px,
+        #0a0e13 24px
+      );
+    }
+    
+    .hazard-glow-amber {
+      box-shadow: 0 0 24px rgba(254, 228, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.85);
+    }
+    
+    .hazard-glow-red {
+      box-shadow: 0 0 28px rgba(239, 68, 68, 0.45);
+    }
+
+    @keyframes live-pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.92); }
+    }
+    
+    .pulse-amber {
+      animation: live-pulse 2s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container pb-24 md:pb-0 font-body-md">
+<!-- 1. Urgent Roadside Announcement Banner -->
+<section class="bg-secondary-container text-primary font-label-sm uppercase tracking-wider py-2 px-space-md shadow-inner border-b border-outline-variant/40">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container inline-block pulse-amber"></span>
+<span class="text-primary font-bold">EMERGENCY ROADSIDE TYRE FITTING</span>
+<span class="hidden md:inline text-on-surface-variant font-normal">— 24/7 FAST DISPATCH ACROSS CORBY &amp; SURROUNDING AREAS</span>
+</div>
+<div class="flex items-center gap-1.5 text-primary-container font-extrabold tracking-widest text-xs"><span class="material-symbols-outlined text-sm" data-icon="bolt">bolt</span><span class="">FITTING VANS ON CALL NOW • CALL +44 7404 355044</span></div>
+</div>
+</section>
+<!-- 2. Top Navigation Bar (Shared Component Web Header) -->
+<header class="bg-surface-container-lowest border-b border-outline-variant shadow-md sticky top-0 z-40">
+<div class="flex justify-between items-center w-full px-space-md lg:px-gutter-desktop max-w-7xl mx-auto h-20">
+<!-- Brand Logo Anchor -->
+<a class="text-headline-sm font-headline-sm uppercase tracking-wider text-primary flex items-center gap-3" href="#"><img src="https://lh3.googleusercontent.com/aida/AEtjO1XNMtBfE4RZCO3zXDgvHVWSaXvt4V-poYZejVw0uEt4jNK78YXvA3ythRjF0WhxrKprOtvyYpDmCRaXs1t6ncHpo5Y2fAWmC6qL5CKrzwaI32lgPL6czGKJ-8y9_TXJ6TAn-zYj0esba0X7JKjvYsxq8mNpriNBThS_yiFX19DJA7g-wvJb0gE-nVgH7ySde9YRbQvDzATR5gbe_NdWLb_p57zo6NxwXIu41epIAf2f3M8og3zABYPSlUI" alt="Corby Mobile Tyres 24 Hour Service Logo" class="h-10 w-auto object-contain"></a>
+<!-- Desktop Nav Items -->
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-primary-container border-b-2 border-primary-container pb-1 font-label-md" href="#services">Tyre Replacement</a>
+<a class="text-on-surface-variant hover:text-on-surface font-label-md transition-colors duration-150" href="#services">Puncture Repair</a>
+<a class="text-on-surface-variant hover:text-on-surface font-label-md transition-colors duration-150" href="#coverage">Coverage Areas</a>
+<a class="text-on-surface-variant hover:text-on-surface font-label-md transition-colors duration-150" href="#faq">FAQ</a>
+</nav>
+<!-- Trailing Action CTA Cluster -->
+<div class="flex items-center gap-3">
+<div class="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container border border-outline-variant text-label-sm font-label-sm text-primary-container">
+<span class="material-symbols-outlined text-sm" data-icon="bolt">bolt</span>
+<span class="">OPEN 24 HOURS</span>
+</div>
+<a class="hazard-glow-amber bg-primary-container text-on-primary-container px-4 lg:px-5 py-2.5 rounded-lg font-label-md font-bold flex items-center gap-2 hover:brightness-110 active:translate-y-px duration-75" href="tel:+447404355044"><span class="material-symbols-outlined text-base" data-icon="call">call</span><span class="">Call: +44 7404 355044</span></a>
+</div>
+</div>
+</header>
+<main>
+<!-- 3. Hero Section (Immediate Conversion & Speed Focus) -->
+<section class="relative bg-surface-dim overflow-hidden pt-8 pb-16 lg:py-16 border-b border-outline-variant">
+<!-- Background Ambient Grid Texture -->
+<div class="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#fee400_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Left Column: High-Urgency Copy & CTAs -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-high border border-outline-variant w-fit">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container pulse-amber"></span>
+<span class="font-label-sm text-on-surface uppercase tracking-wider">Rapid Dispatch Base: Boden Close, Corby NN18</span>
+</div>
+<h1 class="text-headline-xl-mobile md:text-headline-xl font-headline-xl text-primary font-black uppercase tracking-tight leading-none">
+              24/7 MOBILE TYRE HELP IN CORBY
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+              Tyre problems don't wait for opening hours. Get mobile tyre assistance wherever you need it — roadside, home, or workplace across Corby and surrounding routes.
+            </p>
+<!-- Conversion Action Cluster -->
+<div class="flex flex-col sm:flex-row gap-4 pt-2">
+<a class="hazard-glow-amber bg-primary-container text-on-primary-container text-headline-sm font-headline-sm uppercase px-8 py-4 rounded-xl flex items-center justify-center gap-3 hover:brightness-110 active:scale-[0.98] transition-all" href="tel:+447404355044"><span class="material-symbols-outlined text-2xl font-bold" data-icon="emergency">emergency</span><span class="">CALL NOW — +44 7404 355044</span></a>
+<a class="bg-surface-container hover:bg-surface-container-high border border-outline-variant text-primary font-label-lg px-6 py-4 rounded-xl flex items-center justify-center gap-2 transition-colors" href="#quote-form">
+<span class="material-symbols-outlined" data-icon="bolt">bolt</span>
+<span class="">Request Mobile Assistance</span>
+</a>
+</div>
+<!-- Trust Highlights Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-outline-variant/50">
+<div class="flex items-center gap-1.5 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="bolt">bolt</span>
+<span class="">24hr Emergency</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="distance">distance</span>
+<span class="">Roadside &amp; Home</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="emergency">emergency</span>
+<span class="">All Tyre Sizes</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="bolt">bolt</span>
+<span class="">No Shop Visit</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Assistance Image Visual Anchor -->
+<div class="lg:col-span-5">
+<div class="relative rounded-2xl overflow-hidden border border-outline-variant shadow-2xl bg-surface-container-low group">
+<!-- Top Hazard Accent Strip -->
+<div class="h-2 w-full hazard-stripe-top"></div>
+<div class="relative aspect-[4/3] w-full overflow-hidden">
+<img alt="Corby mobile emergency tyre service van at night on wet road" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwhMnsJqsSz3aerZIeKRJTGXUKJP9UVKmUt6AFm8gKnnoniq0si7rPn9-zXuEA5nk3usCt0Zk-CkFOPjOokmcY5_gb96sfrkYatpm3UbSZHppbRV7rTAphePcnRSQr7Elsc8mLkQlChIDAuk-4mfCYAdxC76WQ2VK_ASMk0IpxklrxppmI7rz4utxK3IBD_8cTb7FcYl147qELmr6IBekmPSi5zEFx_RclxxP8XOKQb2Imv-4HGQLa">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-3.5 rounded-xl border border-outline-variant/80 flex items-center justify-between">
+<div>
+<span class="text-label-sm text-primary-container block uppercase font-bold tracking-wider">Active Roadside Unit</span>
+<span class="text-body-sm text-primary font-medium">Boden Close, Corby Depot Response</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-high px-2.5 py-1 rounded border border-outline">
+<span class="w-2 h-2 rounded-full bg-primary-container pulse-amber"></span>
+<span class="text-label-sm text-primary font-bold">STANDBY</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Critical Question Quick Answer Bar (Ergonomic Cards) -->
+<section class="bg-surface-container-lowest py-8 border-b border-outline-variant">
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-surface-container-low p-4 rounded-xl border border-outline-variant hover:border-primary-container/40 transition-colors">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-primary-container font-headline-sm text-sm">WHAT?</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="emergency">emergency</span>
+</div>
+<p class="font-body-sm text-on-surface text-sm">Mobile tyre fitting, puncture repairs &amp; rapid roadside replacement.</p>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl border border-outline-variant hover:border-primary-container/40 transition-colors">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-primary-container font-headline-sm text-sm">WHEN?</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="bolt">bolt</span>
+</div>
+<p class="font-body-sm text-on-surface text-sm">24 Hours a day, 7 days a week, 365 days a year emergency dispatch.</p>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl border border-outline-variant hover:border-primary-container/40 transition-colors">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-primary-container font-headline-sm text-sm">WHERE?</span>
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="distance">distance</span>
+</div>
+<p class="font-body-sm text-on-surface text-sm">Across Corby (NN18, NN17) and surrounding Northants routes.</p>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl border border-primary-container/40 bg-surface-container-high/40">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-primary-container font-headline-sm text-sm">HOW?</span>
+<span class="material-symbols-outlined text-primary-container text-sm" data-icon="call">call</span>
+</div>
+<p class="font-body-sm text-on-surface text-sm font-semibold">Immediate roadside dispatch call: <a class="text-primary-container hover:underline" href="tel:07404355044">07404 355044</a></p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Large Service Cards Section (Bento Grid) -->
+<section class="py-16 bg-surface-dim border-b border-outline-variant" id="services">
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+<div>
+<div class="inline-flex items-center gap-1.5 text-primary-container font-label-sm uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-sm" data-icon="emergency">emergency</span>
+<span class="">Available 24 Hours / Roadside • Home • Work</span>
+</div>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary uppercase font-extrabold">
+              Professional Mobile Tyre Services
+            </h2>
+</div>
+<p class="text-on-surface-variant font-body-sm max-w-md">
+            Owner-approved listing services available around the clock. Fully equipped Mercedes sprinter mobile workshop bringing tire shop precision straight to you.
+          </p>
+</div>
+<!-- Services Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: Featured -->
+<div class="lg:col-span-2 bg-surface-container-low p-6 rounded-2xl border-2 border-primary-container/30 relative overflow-hidden group">
+<div class="h-1.5 w-full absolute top-0 left-0 hazard-stripe-top"></div>
+<div class="flex justify-between items-start mb-4">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant">
+<span class="material-symbols-outlined text-2xl" data-icon="emergency">emergency</span>
+</div>
+<span class="bg-secondary-container text-primary font-label-sm px-3 py-1 rounded-full uppercase font-bold tracking-wider">
+                Roadside Emergency
+              </span>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-2">Emergency Tyre Fitting</h3>
+<p class="text-on-surface-variant font-body-md mb-6 max-w-xl">
+              Rapid response roadside assistance when stranded with blowouts, dangerous punctures, or shredding on motorways, dual carriageways, and rural lanes. Immediate replacement on-site.
+            </p>
+<div class="flex items-center justify-between pt-4 border-t border-outline-variant/60">
+<span class="text-label-sm text-on-surface-variant">Carried Stock: Budget to Premium Brands</span>
+<a class="text-primary-container font-label-md flex items-center gap-1 hover:underline" href="tel:07404355044">
+<span class="">Dispatch Tech</span>
+<span class="material-symbols-outlined text-sm" data-icon="bolt">bolt</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant hover:border-primary-container/50 transition-colors flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant mb-4">
+<span class="material-symbols-outlined text-2xl" data-icon="bolt">bolt</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Puncture Repairs</h3>
+<p class="text-on-surface-variant font-body-sm">
+                Safe roadside evaluation conforming strictly to BSAU159 regulations. Professional plug-patch repairs to get you rolling safely without needing an entire replacement tyre.
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm text-on-surface-variant">BSAU159 Standard</span>
+<a class="text-primary-container font-label-sm flex items-center gap-1 hover:underline" href="#quote-form">
+<span class="">Request Service</span>
+<span class="material-symbols-outlined text-sm" data-icon="distance">distance</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant hover:border-primary-container/50 transition-colors flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant mb-4">
+<span class="material-symbols-outlined text-2xl" data-icon="emergency">emergency</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Tyre Replacement</h3>
+<p class="text-on-surface-variant font-body-sm">
+                Complete range of car, SUV, and van tyres. Budget, mid-range, and premium tyres (Michelin, Pirelli, Goodyear, Continental) delivered and fitted at your driveway or workplace.
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm text-on-surface-variant">All Rim Diameters</span>
+<a class="text-primary-container font-label-sm flex items-center gap-1 hover:underline" href="#quote-form">
+<span class="">Request Service</span>
+<span class="material-symbols-outlined text-sm" data-icon="distance">distance</span>
+</a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant hover:border-primary-container/50 transition-colors flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant mb-4">
+<span class="material-symbols-outlined text-2xl" data-icon="bolt">bolt</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Tyre Pressure &amp; TPMS</h3>
+<p class="text-on-surface-variant font-body-sm">
+                Digital gauge pressure verification, slow leak identification, and TPMS sensor diagnostics or replacements to ensure correct dashboard calibration and safety.
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm text-on-surface-variant">Valve &amp; Sensor Check</span>
+<a class="text-primary-container font-label-sm flex items-center gap-1 hover:underline" href="#quote-form">
+<span class="">Request Service</span>
+<span class="material-symbols-outlined text-sm" data-icon="distance">distance</span>
+</a>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant hover:border-primary-container/50 transition-colors flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant mb-4">
+<span class="material-symbols-outlined text-2xl" data-icon="distance">distance</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Wheel Balancing</h3>
+<p class="text-on-surface-variant font-body-sm">
+                High-precision digital dynamic balancing unit installed inside our service vans eliminates steering wheel vibration and guarantees balanced tread wear immediately.
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm text-on-surface-variant">Mobile Electronic Balancer</span>
+<a class="text-primary-container font-label-sm flex items-center gap-1 hover:underline" href="#quote-form">
+<span class="">Request Service</span>
+<span class="material-symbols-outlined text-sm" data-icon="distance">distance</span>
+</a>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant hover:border-primary-container/50 transition-colors flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container border border-outline-variant mb-4">
+<span class="material-symbols-outlined text-2xl" data-icon="bolt">bolt</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Emergency Rim Bead Repair</h3>
+<p class="text-on-surface-variant font-body-sm">
+                Rim bead corrosion cleaning, emergency alloy wheel rim resealing, and new high-pressure tubeless valve installations performed directly on site.
+              </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm text-on-surface-variant">Corrosion Bead Clean</span>
+<a class="text-primary-container font-label-sm flex items-center gap-1 hover:underline" href="#quote-form">
+<span class="">Request Service</span>
+<span class="material-symbols-outlined text-sm" data-icon="distance">distance</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Emergency Callout Strip (Ultra High-Contrast Tactical Theme) -->
+<section class="bg-primary-container text-on-primary-container py-12 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 pointer-events-none hazard-stripe-top"></div>
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+<div>
+<span class="bg-surface-container-lowest text-primary-container font-label-sm px-3 py-1 rounded uppercase font-bold tracking-widest inline-block mb-3">
+            URGENT SAFETY WARNING
+          </span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg font-black tracking-tight leading-tight uppercase text-surface-container-lowest">
+            STRANDED WITH A TYRE PROBLEM?
+          </h2>
+<p class="font-body-lg text-on-primary-container font-medium max-w-2xl mt-2">
+            Flat tyre, blowout, or sidewall damage? Do not risk driving on a damaged rim or rim flange. Our emergency technicians come directly to your exact coordinates.
+          </p>
+</div>
+<div class="flex-shrink-0">
+<a class="bg-surface-container-lowest text-primary-container hover:bg-surface-container border-2 border-surface-container-lowest font-headline-md font-headline-md px-8 py-5 rounded-xl shadow-2xl flex items-center gap-3 transition-transform active:scale-[0.98]" href="tel:07404355044">
+<span class="material-symbols-outlined text-2xl text-secondary-container" data-icon="emergency">emergency</span>
+<span class="">CALL 07404 355044 NOW (24 HOURS)</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 7. How It Works (Simple 4-Step Process) -->
+<section class="py-16 bg-surface-container-lowest border-b border-outline-variant">
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-primary-container font-label-sm uppercase tracking-widest font-bold block mb-2">Rapid 4-Step Protocol</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary font-black uppercase">
+            How Roadside Mobile Fitting Works
+          </h2>
+<p class="text-on-surface-variant font-body-md mt-2">
+            Clear, straightforward dispatch without fabricated response times. Honest roadside assistance from our dedicated Corby crew.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Step 1 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant relative">
+<div class="text-headline-xl font-headline-xl text-outline-variant/40 font-black mb-3">01</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Call Us</h3>
+<p class="text-on-surface-variant font-body-sm">
+              Speak directly to an on-duty technician at 07404 355044. Describe your issue (flat, sidewall cut, or puncture) and tyre size.
+            </p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant relative">
+<div class="text-headline-xl font-headline-xl text-outline-variant/40 font-black mb-3">02</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Share Location</h3>
+<p class="text-on-surface-variant font-body-sm">
+              Give us your road landmark, postcode, or What3Words coordinates. Stranded on the A43 or stuck at home? We pinpoint your exact spot.
+            </p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant relative">
+<div class="text-headline-xl font-headline-xl text-outline-variant/40 font-black mb-3">03</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Van Dispatched</h3>
+<p class="text-on-surface-variant font-body-sm">
+              Our stocked mobile van departs Boden Close depot loaded with the correct tyre size, heavy duty jacks, and compressor machinery.
+            </p>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-primary-container/40 relative bg-surface-container-high/20">
+<div class="text-headline-xl font-headline-xl text-primary-container/50 font-black mb-3">04</div>
+<h3 class="text-headline-sm font-headline-sm text-primary mb-2">Back On The Road</h3>
+<p class="text-on-surface-variant font-body-sm">
+              Professional fitting, electronic balancing, wheel torque calibration, and contactless card payment completed on the spot.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Coverage & 'We Come To You' Map Section -->
+<section class="py-16 bg-surface-dim border-b border-outline-variant" id="coverage">
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-5">
+<span class="text-primary-container font-label-sm uppercase tracking-widest font-bold block mb-2">Dispatch Range</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary uppercase font-black leading-tight mb-4">
+              Mobile Tyre Assistance Across Corby &amp; Surrounds
+            </h2>
+<p class="text-on-surface-variant font-body-md mb-6">
+              Prompt dispatch from our central base at <strong>Boden Close, Corby NN18 9BT</strong>. We service highways, housing estates, and commercial depots.
+            </p>
+<div class="bg-surface-container p-4 rounded-xl border border-outline-variant mb-6">
+<div class="flex items-center gap-2 text-primary font-label-md mb-2">
+<span class="material-symbols-outlined text-primary-container" data-icon="distance">distance</span>
+<span class="">Primary Service Coverage Zones:</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Corby Town Centre</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Oakley Vale (NN18)</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Weldon</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Priors Hall Park</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Great Oakley</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Cottingham</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">Kettering Corridor</span>
+<span class="bg-surface-container-high px-2.5 py-1 rounded text-label-sm text-on-surface border border-outline-variant/60">A43 &amp; A427 Routes</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest border border-outline-variant flex items-center gap-4">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined" data-icon="bolt">bolt</span>
+</div>
+<div>
+<span class="text-body-sm text-on-surface block font-bold">24-Hour Roadside Mobile Unit</span>
+<span class="text-label-sm text-on-surface-variant">Live Dispatch: 07404 355044</span>
+</div>
+</div>
+</div>
+<!-- Stylized Roadside Map Radar UI -->
+<div class="lg:col-span-7">
+<div class="relative bg-surface-container-lowest rounded-2xl border border-outline-variant overflow-hidden shadow-2xl p-6 min-h-[420px] flex flex-col justify-between">
+<!-- Radar Map Overlay Texture -->
+<div class="absolute inset-0 bg-[radial-gradient(#262a30_1px,transparent_1px)] [background-size:20px_20px] opacity-40"></div>
+<!-- Map Header Badge -->
+<div class="relative z-10 flex justify-between items-center">
+<div class="bg-surface-container-high/90 backdrop-blur border border-outline-variant px-3 py-1.5 rounded-lg flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container pulse-amber"></span>
+<span class="text-label-sm text-primary font-bold">DISPATCH BASE: CORBY NN18 9BT</span>
+</div>
+<span class="text-label-sm text-on-surface-variant font-mono">52.4862° N, 0.6978° W</span>
+</div>
+<!-- Animated Dispatch Radar Beacon Node -->
+<div class="relative z-10 my-auto flex flex-col items-center justify-center text-center py-10">
+<div class="relative flex items-center justify-center">
+<div class="w-28 h-28 rounded-full bg-primary-container/10 border border-primary-container/40 animate-ping absolute"></div>
+<div class="w-16 h-16 rounded-full bg-surface-container-high border-2 border-primary-container flex items-center justify-center text-primary-container shadow-2xl relative z-10">
+<span class="material-symbols-outlined text-3xl" data-icon="distance">distance</span>
+</div>
+</div>
+<div class="mt-4 bg-surface-container/95 border border-outline-variant px-4 py-2 rounded-xl">
+<h4 class="text-headline-sm font-headline-sm text-primary font-bold">Corby Central Rapid Hub</h4>
+<p class="text-label-sm text-primary-container font-mono mt-0.5">Boden Close, Corby NN18 9BT</p>
+</div>
+</div>
+<!-- Key Transport Corridors Bottom Info -->
+<div class="relative z-10 grid grid-cols-3 gap-2 text-center pt-4 border-t border-outline-variant">
+<div class="bg-surface-container p-2 rounded">
+<span class="text-label-sm text-primary-container font-bold block">A43 / A14</span>
+<span class="text-[10px] text-on-surface-variant uppercase">Express Coverage</span>
+</div>
+<div class="bg-surface-container p-2 rounded">
+<span class="text-label-sm text-primary-container font-bold block">A427</span>
+<span class="text-[10px] text-on-surface-variant uppercase">Weldon / Oundle Link</span>
+</div>
+<div class="bg-surface-container p-2 rounded">
+<span class="text-label-sm text-primary-container font-bold block">NN17 &amp; NN18</span>
+<span class="text-[10px] text-on-surface-variant uppercase">Urban &amp; Residential</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. Need a Tyre? Get a Quote Form Section -->
+<section class="py-16 bg-surface-container-lowest border-b border-outline-variant" id="quote-form">
+<div class="max-w-4xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="bg-surface-container-low border border-outline-variant rounded-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden"><div class="flex items-center gap-4"><div class="w-14 h-14 rounded-xl bg-surface-container-high border border-outline-variant flex items-center justify-center text-primary-container flex-shrink-0"><span class="material-symbols-outlined text-3xl" data-icon="distance">distance</span></div><div><h3 class="text-headline-sm font-headline-sm text-primary">Corby Mobile Tyres 24 Hour Service</h3><p class="text-on-surface-variant font-body-sm">Boden Close, Corby, NN18 9BT, United Kingdom</p><p class="text-label-sm text-primary-container font-mono mt-0.5">Plus Code: F7C8+2G Corby, United Kingdom</p><span class="text-label-sm text-primary-container font-mono block mt-1">Direct Hotline: <a class="hover:underline" href="tel:+447404355044">+44 7404 355044</a> (07404 355044)</span></div></div><a class="hazard-glow-amber bg-primary-container text-on-primary-container px-6 py-3.5 rounded-xl font-label-lg font-bold flex items-center gap-2 hover:brightness-110 flex-shrink-0" href="tel:+447404355044"><span class="material-symbols-outlined" data-icon="call">call</span><span class="">Call 24 Hours — +44 7404 355044</span></a></div>
+</div>
+</section>
+<!-- 10. Roadside FAQ Accordion -->
+<section class="py-16 bg-surface-dim border-b border-outline-variant" id="faq">
+<div class="max-w-4xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="text-center mb-12">
+<span class="text-primary-container font-label-sm uppercase tracking-widest font-bold block mb-1">Frequently Asked Questions</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary font-black uppercase">
+            Roadside Tyre Assistance FAQ
+          </h2>
+</div>
+<div class="flex flex-col gap-4">
+<details class="bg-surface-container-low border border-outline-variant rounded-xl p-5 group open:border-primary-container/40">
+<summary class="font-headline-sm text-primary flex justify-between items-center cursor-pointer list-none">
+<span class="">Do you operate 24 hours a day in Corby?</span>
+<span class="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform" data-icon="bolt">bolt</span>
+</summary>
+<p class="text-on-surface-variant font-body-sm mt-3 pt-3 border-t border-outline-variant/40">
+              Yes, we run an around-the-clock emergency roadside and driveway tyre fitting operation 24 hours a day, 7 days a week, 365 days a year across Corby and Northamptonshire.
+            </p>
+</details>
+<details class="bg-surface-container-low border border-outline-variant rounded-xl p-5 group open:border-primary-container/40">
+<summary class="font-headline-sm text-primary flex justify-between items-center cursor-pointer list-none">
+<span class="">Do you come to roadside locations or motorways?</span>
+<span class="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform" data-icon="bolt">bolt</span>
+</summary>
+<p class="text-on-surface-variant font-body-sm mt-3 pt-3 border-t border-outline-variant/40">
+              Yes, our mobile fitting vans are fully autonomous workshops fitted with on-board power generators, high-capacity jacks, bead breakers, and digital balancers to service you anywhere safe roadside, in laybys, car parks, or driveways.
+            </p>
+</details>
+<details class="bg-surface-container-low border border-outline-variant rounded-xl p-5 group open:border-primary-container/40">
+<summary class="font-headline-sm text-primary flex justify-between items-center cursor-pointer list-none">
+<span class="">Can you repair punctures at the roadside?</span>
+<span class="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform" data-icon="bolt">bolt</span>
+</summary>
+<p class="text-on-surface-variant font-body-sm mt-3 pt-3 border-t border-outline-variant/40">
+              Yes, if the puncture is localized in the central tread area compliant with British Standard BSAU159 guidelines. If the sidewall or shoulder is punctured, we carry replacement tyres to ensure your safety.
+            </p>
+</details>
+<details class="bg-surface-container-low border border-outline-variant rounded-xl p-5 group open:border-primary-container/40">
+<summary class="font-headline-sm text-primary flex justify-between items-center cursor-pointer list-none">
+<span class="">Can you replace tyres at my location?</span>
+<span class="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform" data-icon="bolt">bolt</span>
+</summary>
+<p class="text-on-surface-variant font-body-sm mt-3 pt-3 border-t border-outline-variant/40">
+              Yes, we carry a large inventory of tyres ranging from economical budget options to premium brand tyres. We replace the tyre, fit a new valve, digitally balance the wheel, and dispose of your old tyre safely.
+            </p>
+</details>
+<details class="bg-surface-container-low border border-outline-variant rounded-xl p-5 group open:border-primary-container/40">
+<summary class="font-headline-sm text-primary flex justify-between items-center cursor-pointer list-none">
+<span class="">What information should I provide when calling?</span>
+<span class="material-symbols-outlined text-primary-container group-open:rotate-180 transition-transform" data-icon="bolt">bolt</span>
+</summary>
+<p class="text-on-surface-variant font-body-sm mt-3 pt-3 border-t border-outline-variant/40">
+              Please have your tyre size ready (embossed on your tyre sidewall, such as 205/55 R16), your current vehicle location or postcode, and whether your car has locking wheel nut keys available.
+            </p>
+</details>
+</div>
+</div>
+</section>
+<!-- 11. Contact & Location Information Details Card -->
+<section class="py-12 bg-surface-container-lowest border-b border-outline-variant">
+<div class="max-w-7xl mx-auto px-space-md lg:px-gutter-desktop">
+<div class="bg-surface-container-low rounded-2xl border border-outline-variant p-6 sm:p-8 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high border border-outline-variant flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-3xl" data-icon="distance">distance</span>
+</div>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-primary">Corby Mobile Tyres 24 Hour Service</h3>
+<p class="text-on-surface-variant font-body-sm">Boden Close, Corby, NN18 9BT, United Kingdom</p>
+<span class="text-label-sm text-primary-container font-mono block mt-1">Direct Hotline: 07404 355044</span>
+</div>
+</div>
+<a class="hazard-glow-amber bg-primary-container text-on-primary-container px-6 py-3.5 rounded-xl font-label-lg font-bold flex items-center gap-2 hover:brightness-110 flex-shrink-0" href="tel:07404355044">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+<span class="">Call 24 Hours — 07404 355044</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- 12. Bottom Navigation Bar (Shared Component Emergency Dock - Active on Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-space-sm py-space-sm bg-surface-container-lowest/95 backdrop-blur-md border-t border-outline-variant shadow-2xl">
+<!-- Active Destination Tab: SOS Call -->
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container font-label-lg rounded-xl px-4 py-2 hover:brightness-110 active:scale-[0.98] transition-all" href="tel:+447404355044">
+<span class="material-symbols-outlined text-lg" data-icon="emergency">emergency</span>
+<span class="text-[12px] font-bold">SOS Call</span>
+</a>
+<!-- Inactive Tab: Rapid Quote -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-label-sm p-2 hover:brightness-110 active:scale-[0.98] transition-all" href="#quote-form">
+<span class="material-symbols-outlined text-lg" data-icon="bolt">bolt</span>
+<span class="">Rapid Quote</span>
+</a>
+<!-- Inactive Tab: Coverage Map -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-label-sm p-2 hover:brightness-110 active:scale-[0.98] transition-all" href="#coverage">
+<span class="material-symbols-outlined text-lg" data-icon="distance">distance</span>
+<span class="">Coverage Map</span>
+</a>
+</nav>
+<!-- 13. Safety-Compliant Footer (Shared Component Footer) -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant">
+<div class="w-full px-space-md lg:px-gutter-desktop py-space-xl max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-6 border-b border-outline-variant/50"><div class="flex flex-col gap-2"><img src="https://lh3.googleusercontent.com/aida/AEtjO1XNMtBfE4RZCO3zXDgvHVWSaXvt4V-poYZejVw0uEt4jNK78YXvA3ythRjF0WhxrKprOtvyYpDmCRaXs1t6ncHpo5Y2fAWmC6qL5CKrzwaI32lgPL6czGKJ-8y9_TXJ6TAn-zYj0esba0X7JKjvYsxq8mNpriNBThS_yiFX19DJA7g-wvJb0gE-nVgH7ySde9YRbQvDzATR5gbe_NdWLb_p57zo6NxwXIu41epIAf2f3M8og3zABYPSlUI" alt="Corby Mobile Tyres 24 Hour Service Logo" class="h-10 w-auto object-contain"><p class="text-body-sm text-on-surface-variant mt-1">Fast Roadside Dispatch &amp; Assistance across Corby (NN17, NN18) and Northamptonshire.</p></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container" data-icon="bolt">bolt</span><span class="text-label-sm text-primary font-mono">Boden Close, Corby, NN18 9BT (Plus Code: F7C8+2G) • <a class="text-primary hover:underline" href="tel:+447404355044">+44 7404 355044</a></span></div></div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="tel:07404355044">24/7 Breakdown Dispatch</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="#quote-form">Tyre Sizes Guide</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="#coverage">Corby &amp; NN17 Coverage</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="#faq">Emergency Safety Protocols</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="#">Terms of Service</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors duration-150 font-label-sm" href="#">Privacy Policy</a>
+</div>
+<div class="pt-4 flex flex-col sm:flex-row justify-between items-center text-body-sm text-on-surface-variant/80 text-xs gap-2">
+<p class="">© 2024 Corby Mobile Tyres 24 Hour Service. Fast Roadside Dispatch &amp; Assistance. All rights reserved.</p>
+<p class="font-mono text-[11px] text-outline">Verified Emergency Independent Roadside Assistance</p>
+</div>
+</div>
+</footer>
+
+
+</body></html>
